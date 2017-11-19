@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <title>
+        <icon>
+            //a.oxm1.cc/img/fox.jpg
+        </icon>
+        <title>
+            nice mobilephone
+        </title>
+        <subtitle>
+            camera
+        </subtitle>
+        <href>
+            watch
+        </href>
+    </title>
+    <product-list>
+        <i>
+            <title>
+                notebook
+            </title>
+            <brief>
+                good car
+            </brief>
+            <price>
+                43.48
+            </price>
+            <img>
+                //a.oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+            <tags>
+                <i>
+                    powerful laptop
+                </i>
+            </tags>
+            <id>
+                watch
+            </id>
+            <orig_price>
+                0.72
+            </orig_price>
+            <inventory>
+                282
+            </inventory>
+            <discount>
+                4076.61
+            </discount>
+            <category>
+                nice screen
+            </category>
+            <sold>
+                2127
+            </sold>
+        </i>
+    </product-list>
+    </data>
+</root>

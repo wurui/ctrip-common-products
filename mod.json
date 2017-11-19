@@ -1,0 +1,6 @@
+{
+  "name": "ctrip-common-products",
+  "version": "0.0.1",
+  "apiDependencies": ["title","product-list"]
+}
+
