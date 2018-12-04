@@ -7,33 +7,33 @@
             <ul>
             	<xsl:for-each select="data/ecom-products/i">
 	            	<li>
-	            		<a href="{href}">
-		            		<span class="right-button">
-		            			<span class="price">
-		            				<em><xsl:value-of select="price"/></em>
-		            				<xsl:if test="orig_price">
-			            				<del><xsl:value-of select="orig_price"/></del>
-			            			</xsl:if>
-		            			</span>
-		            			<br/>
-	            				<b class="bt-buy">
-	            					立即购买
-	            				</b>
-		            		</span>
-		            		<h4 class="title"><xsl:value-of select="title"/></h4>
-		            		<p class="tags">
-		            			<xsl:for-each select="parameter/i">
-		            				<i><xsl:value-of select="value"/></i>
-		            			</xsl:for-each>
-		            			
-		            			<xsl:if test="sold &gt; 0">
-		            			<span class="sold">
-		            				月销:<xsl:value-of select="sold"/>
-		            			</span>
+	            		
+	            		<span class="right-button">
+	            			<span class="price">
+	            				<em><xsl:value-of select="price"/></em>
+	            				<xsl:if test="orig_price">
+		            				<del><xsl:value-of select="orig_price"/></del>
 		            			</xsl:if>
-		            		</p>
+	            			</span>
+	            			<br/>
+            				<a href="{LINK/buy}" class="bt-buy">
+            					立即购买
+            				</a>
+	            		</span>
+	            		<h4 class="title"><xsl:value-of select="title"/></h4>
+	            		<p class="tags">
+	            			<xsl:for-each select="parameter/i">
+	            				<i><xsl:value-of select="value"/></i>
+	            			</xsl:for-each>
+	            			
+	            			<xsl:if test="sold &gt; 0">
+	            			<span class="sold">
+	            				月销:<xsl:value-of select="sold"/>
+	            			</span>
+	            			</xsl:if>
+	            		</p>
 		            		
-		            	</a>
+		            	
 	            	</li>
 	            </xsl:for-each>
             </ul>

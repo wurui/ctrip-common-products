@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "apiDependencies": [
   	{
-	  	"name":"ecom-products"
-	  }
+	  	"name":"ecom-products",
+	  	"LINK":[
+	  		{"name":"buy","title":"购买"}
+	  	]
+	}
   ]
 }
 
