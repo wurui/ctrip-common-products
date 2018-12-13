@@ -16,7 +16,7 @@
 		            			</xsl:if>
 	            			</span>
 	            			<br/>
-            				<a href="{LINK/buy}" class="bt-buy">
+            				<a href="{LINK/buy}" class="bt-buy skin-bgcolor">
             					立即购买
             				</a>
 	            		</span>
